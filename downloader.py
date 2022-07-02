@@ -83,9 +83,9 @@ elif args.use_class_list == False:
 print("Picked the following clases:")
 print([ class_info_dict[class_wnid]['class_name'] for class_wnid in classes_to_scrape ])
 
-imagenet_images_folder = os.path.join(args.data_root, 'imagenet_images')
-if not os.path.isdir(imagenet_images_folder):
-    os.mkdir(imagenet_images_folder)
+#imagenet_images_folder = os.path.join(args.data_root, 'imagenet_images')
+#if not os.path.isdir(imagenet_images_folder):
+    #os.mkdir(imagenet_images_folder)
 
 
 scraping_stats = dict(
